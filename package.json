@@ -4,6 +4,7 @@
   "description"  : "Simple todo application.",
   "main"         : "server.js",
   "author"       : "Scotch",
+  "repository"   : "Scotch/node-todo",
   "dependencies" : {
     "express"         : "~4.6.1",
     "mongoose"        : "~3.8.13",
