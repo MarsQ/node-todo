@@ -2,7 +2,6 @@
 var express  = require('express');
 var app      = express(); 								// create our app w/ express
 var mongoose = require('mongoose'); 					// mongoose for mongodb
-var port  	 = process.env.PORT || 8080; 				// set the port
 var port  	 = process.env.PORT || 8001; 				// set the port
 var database = require('./config/database'); 			// load the database config
 var morgan   = require('morgan');
@@ -27,3 +26,4 @@ require('./app/routes.js')(app);
 app.listen(port);
 console.log("App listening on port " + port);
 
+//this is a test 1
